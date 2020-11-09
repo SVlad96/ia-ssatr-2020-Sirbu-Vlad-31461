@@ -7,18 +7,17 @@ package ro.utcluj.ssatr.curs2.ssatr.ia;
 
 /**
  *
- * @author mihai.hulea
+ * @author lenovo
  */
-public class DieselCar extends Car { //clasa derivata  
-
+public class OttoCar extends Car {
     
-    public DieselCar(String name, int speed,String plateNumber) {
+      
+    public OttoCar(String name, int speed,String plateNumber) {
         super(name, speed,plateNumber); //apelare constructor din calsa de baza
     }
     
     void accelerate(){ //suprascriere metoda
-        speed+=2;
-        System.out.println("Diesel car speed is "+speed);
+        speed+=3;
+        System.out.println("Otto car speed is "+speed);
     }
-    
 }
