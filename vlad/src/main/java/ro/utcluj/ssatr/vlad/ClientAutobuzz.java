@@ -19,7 +19,7 @@ import java.util.logging.Logger;
 import org.apache.commons.lang3.RandomStringUtils;
 /**
  *
- * @author lenovo
+ * @author Vlad
  */
 public class ClientAutobuzz extends Thread {
     BufferedReader fluxIn;
